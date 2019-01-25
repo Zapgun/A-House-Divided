@@ -36,6 +36,7 @@ ModelImporter:
     100060: Unit
     100062: Worktop_1x
     100064: Worktop_1x001
+    100066: Unit001
     400000: 2DrDoor00
     400002: 2DrDoor01
     400004: 3DrDoor00
@@ -69,6 +70,7 @@ ModelImporter:
     400060: Unit
     400062: Worktop_1x
     400064: Worktop_1x001
+    400066: Unit001
     2100000: 'Material #4'
     2100002: Grey
     2100004: StainlessSteel
@@ -103,6 +105,7 @@ ModelImporter:
     2300056: Unit
     2300058: Worktop_1x
     2300060: Worktop_1x001
+    2300062: Unit001
     3300000: 2DrDoor00
     3300002: 2DrDoor01
     3300004: 3DrDoor00
@@ -134,6 +137,7 @@ ModelImporter:
     3300056: Unit
     3300058: Worktop_1x
     3300060: Worktop_1x001
+    3300062: Unit001
     4300000: Skirt
     4300002: Worktop_1x
     4300004: Splashback_1x
@@ -165,6 +169,7 @@ ModelImporter:
     4300056: Door002
     4300058: Handle007
     4300060: Skirt002
+    4300062: Unit001
   externalObjects: {}
   materials:
     importMaterials: 1
