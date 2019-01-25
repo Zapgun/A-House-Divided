@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 23ec10b27af66a44ea0ed2fb07b7afb6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 2DrDoor00
+    100002: 2DrDoor01
+    100004: 3DrDoor00
+    100006: 3DrDoor01
+    100008: 3DrDoor02
+    100010: Door
+    100012: Door001
+    100014: Door002
+    100016: Fridge/FreezerCabinet
+    100018: Fridge/FreezerCabinet001
+    100020: Handle00
+    100022: Handle006
+    100024: Handle007
+    100026: Handle01
+    100028: Handle02
+    100030: Handle03
+    100032: Handle04
+    100034: Handle05
+    100036: Inner Shelf
+    100038: //RootNode
+    100040: Sink
+    100042: SinkBasin
+    100044: Skirt
+    100046: Skirt001
+    100048: Skirt002
+    100050: Splashback_1x
+    100052: Splashback_1x001
+    100054: TapEnd
+    100056: TapHandle
+    100058: TapStem
+    100060: Unit
+    100062: Worktop_1x
+    100064: Worktop_1x001
+    400000: 2DrDoor00
+    400002: 2DrDoor01
+    400004: 3DrDoor00
+    400006: 3DrDoor01
+    400008: 3DrDoor02
+    400010: Door
+    400012: Door001
+    400014: Door002
+    400016: Fridge/FreezerCabinet
+    400018: Fridge/FreezerCabinet001
+    400020: Handle00
+    400022: Handle006
+    400024: Handle007
+    400026: Handle01
+    400028: Handle02
+    400030: Handle03
+    400032: Handle04
+    400034: Handle05
+    400036: Inner Shelf
+    400038: //RootNode
+    400040: Sink
+    400042: SinkBasin
+    400044: Skirt
+    400046: Skirt001
+    400048: Skirt002
+    400050: Splashback_1x
+    400052: Splashback_1x001
+    400054: TapEnd
+    400056: TapHandle
+    400058: TapStem
+    400060: Unit
+    400062: Worktop_1x
+    400064: Worktop_1x001
+    2100000: 'Material #4'
+    2100002: Grey
+    2100004: StainlessSteel
+    2300000: 2DrDoor00
+    2300002: 2DrDoor01
+    2300004: 3DrDoor00
+    2300006: 3DrDoor01
+    2300008: 3DrDoor02
+    2300010: Door
+    2300012: Door001
+    2300014: Door002
+    2300016: Fridge/FreezerCabinet
+    2300018: Fridge/FreezerCabinet001
+    2300020: Handle00
+    2300022: Handle006
+    2300024: Handle007
+    2300026: Handle01
+    2300028: Handle02
+    2300030: Handle03
+    2300032: Handle04
+    2300034: Handle05
+    2300036: Inner Shelf
+    2300038: SinkBasin
+    2300040: Skirt
+    2300042: Skirt001
+    2300044: Skirt002
+    2300046: Splashback_1x
+    2300048: Splashback_1x001
+    2300050: TapEnd
+    2300052: TapHandle
+    2300054: TapStem
+    2300056: Unit
+    2300058: Worktop_1x
+    2300060: Worktop_1x001
+    3300000: 2DrDoor00
+    3300002: 2DrDoor01
+    3300004: 3DrDoor00
+    3300006: 3DrDoor01
+    3300008: 3DrDoor02
+    3300010: Door
+    3300012: Door001
+    3300014: Door002
+    3300016: Fridge/FreezerCabinet
+    3300018: Fridge/FreezerCabinet001
+    3300020: Handle00
+    3300022: Handle006
+    3300024: Handle007
+    3300026: Handle01
+    3300028: Handle02
+    3300030: Handle03
+    3300032: Handle04
+    3300034: Handle05
+    3300036: Inner Shelf
+    3300038: SinkBasin
+    3300040: Skirt
+    3300042: Skirt001
+    3300044: Skirt002
+    3300046: Splashback_1x
+    3300048: Splashback_1x001
+    3300050: TapEnd
+    3300052: TapHandle
+    3300054: TapStem
+    3300056: Unit
+    3300058: Worktop_1x
+    3300060: Worktop_1x001
+    4300000: Skirt
+    4300002: Worktop_1x
+    4300004: Splashback_1x
+    4300006: Inner Shelf
+    4300008: Door
+    4300010: Handle00
+    4300012: Unit
+    4300014: 2DrDoor00
+    4300016: Handle01
+    4300018: 2DrDoor01
+    4300020: Handle02
+    4300022: 3DrDoor00
+    4300024: 3DrDoor01
+    4300026: 3DrDoor02
+    4300028: Handle03
+    4300030: Handle04
+    4300032: Handle05
+    4300034: Splashback_1x001
+    4300036: Worktop_1x001
+    4300038: SinkBasin
+    4300040: TapEnd
+    4300042: TapStem
+    4300044: TapHandle
+    4300046: Door001
+    4300048: Handle006
+    4300050: Skirt001
+    4300052: Fridge/FreezerCabinet
+    4300054: Fridge/FreezerCabinet001
+    4300056: Door002
+    4300058: Handle007
+    4300060: Skirt002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
