@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: e840322426f9cdf419ce65f8931bd24d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 3dSolid001
+    100002: 3dSolid002
+    100004: 3dSolid003
+    100006: 3dSolid005
+    100008: 3dSolid006
+    100010: 3dSolid007
+    100012: 3dSolid008
+    100014: 3dSolid009
+    100016: Bathroom
+    100018: Black Void
+    100020: Box001
+    100022: Box002
+    100024: Box003
+    100026: Box004
+    100028: Box005
+    100030: Box006
+    100032: Box007
+    100034: Box008
+    100036: Door
+    100038: Door003
+    100040: Doorway
+    100042: //RootNode
+    100044: Stairs
+    400000: 3dSolid001
+    400002: 3dSolid002
+    400004: 3dSolid003
+    400006: 3dSolid005
+    400008: 3dSolid006
+    400010: 3dSolid007
+    400012: 3dSolid008
+    400014: 3dSolid009
+    400016: Bathroom
+    400018: Black Void
+    400020: Box001
+    400022: Box002
+    400024: Box003
+    400026: Box004
+    400028: Box005
+    400030: Box006
+    400032: Box007
+    400034: Box008
+    400036: Door
+    400038: Door003
+    400040: Doorway
+    400042: //RootNode
+    400044: Stairs
+    2100000: Wood
+    2100002: Grey
+    2100004: 'Material #5'
+    2100006: Garden
+    2100008: No Name
+    2300000: 3dSolid001
+    2300002: 3dSolid002
+    2300004: 3dSolid003
+    2300006: 3dSolid005
+    2300008: 3dSolid006
+    2300010: 3dSolid007
+    2300012: 3dSolid008
+    2300014: 3dSolid009
+    2300016: Bathroom
+    2300018: Black Void
+    2300020: Box001
+    2300022: Box002
+    2300024: Box003
+    2300026: Box004
+    2300028: Box005
+    2300030: Box006
+    2300032: Box007
+    2300034: Box008
+    2300036: Door
+    2300038: Door003
+    2300040: Stairs
+    3300000: 3dSolid001
+    3300002: 3dSolid002
+    3300004: 3dSolid003
+    3300006: 3dSolid005
+    3300008: 3dSolid006
+    3300010: 3dSolid007
+    3300012: 3dSolid008
+    3300014: 3dSolid009
+    3300016: Bathroom
+    3300018: Black Void
+    3300020: Box001
+    3300022: Box002
+    3300024: Box003
+    3300026: Box004
+    3300028: Box005
+    3300030: Box006
+    3300032: Box007
+    3300034: Box008
+    3300036: Door
+    3300038: Door003
+    3300040: Stairs
+    4300000: 3dSolid001
+    4300002: 3dSolid002
+    4300004: 3dSolid003
+    4300006: Door
+    4300008: 3dSolid005
+    4300010: 3dSolid006
+    4300012: 3dSolid007
+    4300014: Box001
+    4300016: Box002
+    4300018: Black Void
+    4300020: Box003
+    4300022: Box004
+    4300024: 3dSolid008
+    4300026: 3dSolid009
+    4300028: Box005
+    4300030: Box006
+    4300032: Box007
+    4300034: Door003
+    4300036: Box008
+    4300038: Stairs
+    4300040: Bathroom
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
