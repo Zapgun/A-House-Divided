@@ -128,37 +128,37 @@ PrefabInstance:
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3231454
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2031686
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.3782933
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.022962164
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.97605896
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.17339188
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.12929425
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
@@ -168,12 +168,12 @@ PrefabInstance:
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 17.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 109.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4886798941055332380, guid: 6a10345f5015d1840b3aba36560537a5,
         type: 3}
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faderCanvasGroup: {fileID: 1708470355}
   fadeDuration: 1
-  startingSceneName: Main House
+  startingSceneName: Main House bwl
   initialStartingPositionName: 00StartPosition
   playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &353158847
