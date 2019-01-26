@@ -26,6 +26,39 @@ ModelImporter:
     100040: Doorway
     100042: //RootNode
     100044: Stairs
+    100046: BackDoor
+    100048: Box2238
+    100050: Box2239
+    100052: Box2240
+    100054: Box2241
+    100056: Box639
+    100058: Box642
+    100060: Dining Table
+    100062: Exterior_Drive001
+    100064: Front Door
+    100066: Glazing
+    100068: Ground_Doors_ext001
+    100070: KitchenWindow
+    100072: Placemat00
+    100074: Placemat01
+    100076: Placemat02
+    100078: Placemat03
+    100080: Plate00
+    100082: Plate01
+    100084: Plate02
+    100086: Plate03
+    100088: PlayerHome001
+    100090: Table Setting
+    100092: TableCLoth
+    100094: TableLeg00
+    100096: TableLeg01
+    100098: TableLeg02
+    100100: TableLeg03
+    100102: TableTop
+    100104: WindowFrame
+    100106: WindowShelf
+    100108: WindowTriple011
+    100110: WIP_ExteriorOnly
     400000: 3dSolid001
     400002: 3dSolid002
     400004: 3dSolid003
@@ -49,11 +82,50 @@ ModelImporter:
     400040: Doorway
     400042: //RootNode
     400044: Stairs
+    400046: BackDoor
+    400048: Box2238
+    400050: Box2239
+    400052: Box2240
+    400054: Box2241
+    400056: Box639
+    400058: Box642
+    400060: Dining Table
+    400062: Exterior_Drive001
+    400064: Front Door
+    400066: Glazing
+    400068: Ground_Doors_ext001
+    400070: KitchenWindow
+    400072: Placemat00
+    400074: Placemat01
+    400076: Placemat02
+    400078: Placemat03
+    400080: Plate00
+    400082: Plate01
+    400084: Plate02
+    400086: Plate03
+    400088: PlayerHome001
+    400090: Table Setting
+    400092: TableCLoth
+    400094: TableLeg00
+    400096: TableLeg01
+    400098: TableLeg02
+    400100: TableLeg03
+    400102: TableTop
+    400104: WindowFrame
+    400106: WindowShelf
+    400108: WindowTriple011
+    400110: WIP_ExteriorOnly
     2100000: Wood
     2100002: Grey
     2100004: 'Material #5'
     2100006: Garden
     2100008: No Name
+    2100010: 'Material #495'
+    2100012: 'Material #496'
+    2100014: 'Material #512'
+    2100016: 'Material #514'
+    2100018: 'Material #520'
+    2100020: 'Material #521'
     2300000: 3dSolid001
     2300002: 3dSolid002
     2300004: 3dSolid003
@@ -75,6 +147,29 @@ ModelImporter:
     2300036: Door
     2300038: Door003
     2300040: Stairs
+    2300042: Box2238
+    2300044: Box2239
+    2300046: Box2240
+    2300048: Box2241
+    2300050: Box639
+    2300052: Box642
+    2300054: Glazing
+    2300056: Placemat00
+    2300058: Placemat01
+    2300060: Placemat02
+    2300062: Placemat03
+    2300064: Plate00
+    2300066: Plate01
+    2300068: Plate02
+    2300070: Plate03
+    2300072: TableCLoth
+    2300074: TableLeg00
+    2300076: TableLeg01
+    2300078: TableLeg02
+    2300080: TableLeg03
+    2300082: TableTop
+    2300084: WindowFrame
+    2300086: WindowShelf
     3300000: 3dSolid001
     3300002: 3dSolid002
     3300004: 3dSolid003
@@ -96,6 +191,29 @@ ModelImporter:
     3300036: Door
     3300038: Door003
     3300040: Stairs
+    3300042: Box2238
+    3300044: Box2239
+    3300046: Box2240
+    3300048: Box2241
+    3300050: Box639
+    3300052: Box642
+    3300054: Glazing
+    3300056: Placemat00
+    3300058: Placemat01
+    3300060: Placemat02
+    3300062: Placemat03
+    3300064: Plate00
+    3300066: Plate01
+    3300068: Plate02
+    3300070: Plate03
+    3300072: TableCLoth
+    3300074: TableLeg00
+    3300076: TableLeg01
+    3300078: TableLeg02
+    3300080: TableLeg03
+    3300082: TableTop
+    3300084: WindowFrame
+    3300086: WindowShelf
     4300000: 3dSolid001
     4300002: 3dSolid002
     4300004: 3dSolid003
@@ -117,6 +235,29 @@ ModelImporter:
     4300036: Box008
     4300038: Stairs
     4300040: Bathroom
+    4300042: TableCLoth
+    4300044: TableTop
+    4300046: TableLeg00
+    4300048: TableLeg03
+    4300050: TableLeg01
+    4300052: TableLeg02
+    4300054: Placemat02
+    4300056: Placemat03
+    4300058: Plate02
+    4300060: Plate01
+    4300062: Placemat01
+    4300064: Plate00
+    4300066: Placemat00
+    4300068: Plate03
+    4300070: WindowFrame
+    4300072: Glazing
+    4300074: WindowShelf
+    4300076: Box639
+    4300078: Box642
+    4300080: Box2240
+    4300082: Box2241
+    4300084: Box2238
+    4300086: Box2239
   externalObjects: {}
   materials:
     importMaterials: 1
