@@ -9,6 +9,8 @@ public class LookAt : MonoBehaviour
     public GameObject player;
 
     public GameObject heldObj = null;
+
+    private GameObject dropObj;
     public GameObject heldObjPos; // this is where the held object will be placed
 
     private bool pickupHeld;
@@ -28,6 +30,19 @@ public class LookAt : MonoBehaviour
         Ray ray = cam.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
         RaycastHit hit;
 
+        if (Input.GetButtonDown("Activate") && heldObj != null)
+        {
+            heldObj.transform.parent = null;
+
+            heldObj.transform.position = new Vector3(player.transform.position.x, 1, player.transform.position.z);
+
+            heldObj.GetComponent<Animator>().enabled = true;
+
+            heldObj = null;
+
+            print("Object dropped.");  
+        }
+
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
         {
@@ -35,21 +50,19 @@ public class LookAt : MonoBehaviour
 
             
 
-            if(Input.GetButtonDown("Activate") && heldObj == null){
+            if (Input.GetButtonDown("Activate") && heldObj == null){
                 //if(hit.transform.gameObject.CompareTag("Red")){
                     // if heldObj == null and hit object is tagged 'pickupable' do stuff
                     heldObj = hit.transform.gameObject;
                     heldObj.transform.parent = this.transform.parent.transform;
+                    heldObj.GetComponent<Animator>().enabled = false;
                     heldObj.transform.localPosition = heldObjPos.transform.localPosition;
                     //heldObj.transform.gameObject.SetActive(false);
 
+                    print("Object picked up.");
 
                     //pickupHeld = true;
                 //}
-            }
-
-            if(Input.GetButtonDown("Cancel")){
-                
             }
         }
         else
