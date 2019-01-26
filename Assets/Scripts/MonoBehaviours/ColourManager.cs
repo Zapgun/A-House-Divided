@@ -44,6 +44,8 @@ public class ColourManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.B)) ChangeColour (Colouration.Colours.B);
     }
     public void ChangeColour (Colouration.Colours colour) {
+        // TODO: Call ChangeObjectColour(itemheld[if not null])
+
         // Activate/deactivate colourised GameObject instances
         foreach (var g in colouredObjects) {
             g.GetComponent<Colouration>().ReactToLight(colour);
