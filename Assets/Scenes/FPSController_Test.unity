@@ -273,6 +273,12 @@ PrefabInstance:
       propertyPath: m_MouseLook.XSensitivity
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114325705307043628, guid: 64ab15a08ef634d4a9016cd4a8ef9228,
+        type: 3}
+      propertyPath: playerSaveData
+      value: 
+      objectReference: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f,
+        type: 2}
     - target: {fileID: 2000000, guid: 64ab15a08ef634d4a9016cd4a8ef9228, type: 3}
       propertyPath: m_AllowMSAA
       value: 0

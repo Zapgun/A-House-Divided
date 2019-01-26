@@ -46,8 +46,11 @@ namespace ModifiedControllers
         // Use this for initialization
         private void Start()
         {
+            if (Application.isEditor) m_MouseLook.SetCursorLock(false);
             m_CharacterController = GetComponent<CharacterController>();
+            
             m_Camera = Camera.main;
+            m_Camera.transform.parent = this.transform;
             m_OriginalCameraPosition = m_Camera.transform.localPosition;
             m_FovKick.Setup(m_Camera);
             m_HeadBob.Setup(m_Camera, m_StepInterval);
