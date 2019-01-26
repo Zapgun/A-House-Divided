@@ -38,6 +38,8 @@ public class Colouration : MonoBehaviour
         // Have GameController call ChangeColour in its first frame
     }
 
+    public void SetColour (Colours newColor) { objectColour = newColor; }
+
     public void ReactToLight (Colours newColor){
         // A single object may be visible in multiple light-worlds.
         // It is active iff one of its bits matches the single bit of the colour

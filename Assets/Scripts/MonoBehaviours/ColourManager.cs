@@ -122,6 +122,6 @@ public class ColourManager : MonoBehaviour
         else TorchOn();
     }
     public void ChangeObjectColour (Colouration col) {
-        col.objectColour = GetCurrentColour();
+        col.SetColour(GetCurrentColour());
     }
 }
