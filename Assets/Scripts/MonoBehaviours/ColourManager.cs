@@ -55,8 +55,8 @@ public class ColourManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Delete)) RemoveLenses ();
 
         if (Input.GetKeyDown(KeyCode.Q)) CycleColourWheelAntiClockwise();
-        if (Input.GetKeyDown(KeyCode.W)) CycleColourWheelClockwise();
-        if (Input.GetKeyDown(KeyCode.A)) TorchToggle();
+        if (Input.GetKeyDown(KeyCode.E)) CycleColourWheelClockwise();
+        if (Input.GetKeyDown(KeyCode.Z)) TorchToggle();
         
     }
     public void ChangeColour (Colouration.Colours colour) {

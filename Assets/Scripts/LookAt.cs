@@ -34,9 +34,7 @@ public class LookAt : MonoBehaviour
         {
             heldObj.transform.parent = null;
 
-            heldObj.transform.position = new Vector3(player.transform.position.x, 1, player.transform.position.z);
-
-            heldObj.GetComponent<Animator>().enabled = true;
+            heldObj.GetComponentInChildren<Animator>().enabled = true;
 
             heldObj = null;
 
@@ -51,18 +49,13 @@ public class LookAt : MonoBehaviour
             
 
             if (Input.GetButtonDown("Activate") && heldObj == null){
-                //if(hit.transform.gameObject.CompareTag("Red")){
-                    // if heldObj == null and hit object is tagged 'pickupable' do stuff
-                    heldObj = hit.transform.gameObject;
-                    heldObj.transform.parent = this.transform.parent.transform;
-                    heldObj.GetComponent<Animator>().enabled = false;
-                    heldObj.transform.localPosition = heldObjPos.transform.localPosition;
-                    //heldObj.transform.gameObject.SetActive(false);
+                heldObj = hit.transform.gameObject;
+                heldObj.transform.parent = this.transform.parent.transform;
+                heldObj.GetComponentInChildren<Animator>().enabled = false;
+                heldObj.transform.localPosition = heldObjPos.transform.localPosition;
+                //heldObj.transform.gameObject.SetActive(false);
 
-                    print("Object picked up.");
-
-                    //pickupHeld = true;
-                //}
+                print("Object picked up.");
             }
         }
         else
