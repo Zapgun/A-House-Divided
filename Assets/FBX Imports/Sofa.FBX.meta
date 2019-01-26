@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: cf757f902600c814d99348031e83dab7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cushion003
+    100002: Cushion004
+    100004: Cushion1
+    100006: Cushion2
+    100008: SeatCushion00
+    100010: SeatCushion01
+    100012: SeatCushion02
+    100014: SeatCushion03
+    100016: SeatCushion04
+    100018: //RootNode
+    100020: SofaFrame00
+    100022: SofaFrame01
+    100024: SofaFrame02
+    100026: SofaFrame03
+    100028: SofaFrame04
+    100030: SofaFrame05
+    100032: SofaFrame06
+    100034: SofaFrame07
+    100036: SofaFrame08
+    400000: Cushion003
+    400002: Cushion004
+    400004: Cushion1
+    400006: Cushion2
+    400008: SeatCushion00
+    400010: SeatCushion01
+    400012: SeatCushion02
+    400014: SeatCushion03
+    400016: SeatCushion04
+    400018: //RootNode
+    400020: SofaFrame00
+    400022: SofaFrame01
+    400024: SofaFrame02
+    400026: SofaFrame03
+    400028: SofaFrame04
+    400030: SofaFrame05
+    400032: SofaFrame06
+    400034: SofaFrame07
+    400036: SofaFrame08
+    2100000: Grey
+    2100002: 'Material #580'
+    2100004: 'Material #579'
+    2300000: Cushion003
+    2300002: Cushion004
+    2300004: Cushion1
+    2300006: Cushion2
+    2300008: SeatCushion00
+    2300010: SeatCushion01
+    2300012: SeatCushion02
+    2300014: SeatCushion03
+    2300016: SeatCushion04
+    2300018: SofaFrame00
+    2300020: SofaFrame01
+    2300022: SofaFrame02
+    2300024: SofaFrame03
+    2300026: SofaFrame04
+    2300028: SofaFrame05
+    2300030: SofaFrame06
+    2300032: SofaFrame07
+    2300034: SofaFrame08
+    3300000: Cushion003
+    3300002: Cushion004
+    3300004: Cushion1
+    3300006: Cushion2
+    3300008: SeatCushion00
+    3300010: SeatCushion01
+    3300012: SeatCushion02
+    3300014: SeatCushion03
+    3300016: SeatCushion04
+    3300018: SofaFrame00
+    3300020: SofaFrame01
+    3300022: SofaFrame02
+    3300024: SofaFrame03
+    3300026: SofaFrame04
+    3300028: SofaFrame05
+    3300030: SofaFrame06
+    3300032: SofaFrame07
+    3300034: SofaFrame08
+    4300000: SofaFrame00
+    4300002: SofaFrame01
+    4300004: SofaFrame02
+    4300006: SofaFrame03
+    4300008: SofaFrame04
+    4300010: SofaFrame05
+    4300012: Cushion003
+    4300014: SofaFrame08
+    4300016: SeatCushion04
+    4300018: SeatCushion00
+    4300020: SeatCushion01
+    4300022: SeatCushion02
+    4300024: SeatCushion03
+    4300026: SofaFrame07
+    4300028: Cushion2
+    4300030: Cushion1
+    4300032: Cushion004
+    4300034: SofaFrame06
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
