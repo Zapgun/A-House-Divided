@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 6c25169ff4afdb44b9bce04d97e8f4e2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Placemat00
+    100004: Placemat01
+    100006: Placemat02
+    100008: Placemat03
+    100010: Plate00
+    100012: Plate01
+    100014: Plate02
+    100016: Plate03
+    100018: Table Setting
+    100020: TableCLoth
+    100022: TableLeg00
+    100024: TableLeg01
+    100026: TableLeg02
+    100028: TableLeg03
+    100030: TableTop
+    400000: //RootNode
+    400002: Placemat00
+    400004: Placemat01
+    400006: Placemat02
+    400008: Placemat03
+    400010: Plate00
+    400012: Plate01
+    400014: Plate02
+    400016: Plate03
+    400018: Table Setting
+    400020: TableCLoth
+    400022: TableLeg00
+    400024: TableLeg01
+    400026: TableLeg02
+    400028: TableLeg03
+    400030: TableTop
+    2100000: No Name
+    2100002: Wood
+    2300000: Placemat00
+    2300002: Placemat01
+    2300004: Placemat02
+    2300006: Placemat03
+    2300008: Plate00
+    2300010: Plate01
+    2300012: Plate02
+    2300014: Plate03
+    2300016: TableCLoth
+    2300018: TableLeg00
+    2300020: TableLeg01
+    2300022: TableLeg02
+    2300024: TableLeg03
+    2300026: TableTop
+    3300000: Placemat00
+    3300002: Placemat01
+    3300004: Placemat02
+    3300006: Placemat03
+    3300008: Plate00
+    3300010: Plate01
+    3300012: Plate02
+    3300014: Plate03
+    3300016: TableCLoth
+    3300018: TableLeg00
+    3300020: TableLeg01
+    3300022: TableLeg02
+    3300024: TableLeg03
+    3300026: TableTop
+    4300000: TableCLoth
+    4300002: TableTop
+    4300004: TableLeg00
+    4300006: TableLeg03
+    4300008: TableLeg01
+    4300010: TableLeg02
+    4300012: Placemat02
+    4300014: Placemat03
+    4300016: Plate02
+    4300018: Plate01
+    4300020: Placemat01
+    4300022: Plate00
+    4300024: Placemat00
+    4300026: Plate03
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

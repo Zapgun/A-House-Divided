@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 447254441018913117}
   - component: {fileID: 447254441017585985}
   - component: {fileID: 447254441016488705}
+  - component: {fileID: 1551022909664018444}
   m_Layer: 0
   m_Name: Unit001
   m_TagString: Untagged
@@ -462,6 +463,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1551022909664018444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447254441018682749}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5999998, y: 0.6, z: 0.8}
+  m_Center: {x: 0.0000003874302, y: 0.00000077486055, z: -0.00000002980233}
 --- !u!1 &3853464060657571625
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +640,7 @@ PrefabInstance:
     - target: {fileID: 6832718369560606408, guid: de0d7658f24e4914eac87e5173c677ca,
         type: 3}
       propertyPath: m_Name
-      value: Cabinet
+      value: SinkUnit
       objectReference: {fileID: 0}
     - target: {fileID: 5081731892699389711, guid: de0d7658f24e4914eac87e5173c677ca,
         type: 3}
