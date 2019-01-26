@@ -30,6 +30,15 @@ public class LookAt : MonoBehaviour
         Ray ray = cam.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
         RaycastHit hit;
 
+        if (Input.GetButtonDown("Activate") && heldObj != null)
+        {
+            heldObj.transform.parent = null;
+
+            heldObj = null;
+
+            print("Object dropped.");  
+        }
+
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
         {
@@ -37,7 +46,7 @@ public class LookAt : MonoBehaviour
 
             
 
-            if(Input.GetButtonDown("Activate") && heldObj == null){
+            if (Input.GetButtonDown("Activate") && heldObj == null){
                 //if(hit.transform.gameObject.CompareTag("Red")){
                     // if heldObj == null and hit object is tagged 'pickupable' do stuff
                     heldObj = hit.transform.gameObject;
@@ -54,14 +63,6 @@ public class LookAt : MonoBehaviour
         else
         {
             print("I'm looking at nothing!");
-        }
-
-        if(Input.GetButtonDown("Drop")){
-            heldObj.transform.parent = null;
-
-            heldObj = null;
-
-            print("Object dropped.");  
         }
     }
 }
