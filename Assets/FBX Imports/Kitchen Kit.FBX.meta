@@ -37,6 +37,18 @@ ModelImporter:
     100062: Worktop_1x
     100064: Worktop_1x001
     100066: Unit001
+    100068: Body
+    100070: Cooker
+    100072: HobDials00
+    100074: HobDials01
+    100076: HobDials02
+    100078: HobDials03
+    100080: HobGaurds00
+    100082: HobGaurds01
+    100084: HobRings00
+    100086: HobRings01
+    100088: HobRings02
+    100090: HobRings03
     400000: 2DrDoor00
     400002: 2DrDoor01
     400004: 3DrDoor00
@@ -71,9 +83,25 @@ ModelImporter:
     400062: Worktop_1x
     400064: Worktop_1x001
     400066: Unit001
+    400068: Body
+    400070: Cooker
+    400072: HobDials00
+    400074: HobDials01
+    400076: HobDials02
+    400078: HobDials03
+    400080: HobGaurds00
+    400082: HobGaurds01
+    400084: HobRings00
+    400086: HobRings01
+    400088: HobRings02
+    400090: HobRings03
     2100000: 'Material #4'
     2100002: Grey
     2100004: StainlessSteel
+    2100006: Hob Ring
+    2100008: 'Material #483'
+    2100010: Cooker Mats
+    2100012: 17 - Default
     2300000: 2DrDoor00
     2300002: 2DrDoor01
     2300004: 3DrDoor00
@@ -106,6 +134,17 @@ ModelImporter:
     2300058: Worktop_1x
     2300060: Worktop_1x001
     2300062: Unit001
+    2300064: Body
+    2300066: HobDials00
+    2300068: HobDials01
+    2300070: HobDials02
+    2300072: HobDials03
+    2300074: HobGaurds00
+    2300076: HobGaurds01
+    2300078: HobRings00
+    2300080: HobRings01
+    2300082: HobRings02
+    2300084: HobRings03
     3300000: 2DrDoor00
     3300002: 2DrDoor01
     3300004: 3DrDoor00
@@ -138,6 +177,17 @@ ModelImporter:
     3300058: Worktop_1x
     3300060: Worktop_1x001
     3300062: Unit001
+    3300064: Body
+    3300066: HobDials00
+    3300068: HobDials01
+    3300070: HobDials02
+    3300072: HobDials03
+    3300074: HobGaurds00
+    3300076: HobGaurds01
+    3300078: HobRings00
+    3300080: HobRings01
+    3300082: HobRings02
+    3300084: HobRings03
     4300000: Skirt
     4300002: Worktop_1x
     4300004: Splashback_1x
@@ -170,6 +220,17 @@ ModelImporter:
     4300058: Handle007
     4300060: Skirt002
     4300062: Unit001
+    4300064: Body
+    4300066: HobRings01
+    4300068: HobRings00
+    4300070: HobRings02
+    4300072: HobRings03
+    4300074: HobGaurds00
+    4300076: HobDials00
+    4300078: HobDials01
+    4300080: HobDials02
+    4300082: HobDials03
+    4300084: HobGaurds01
   externalObjects: {}
   materials:
     importMaterials: 1
