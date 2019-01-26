@@ -34,6 +34,10 @@ public class LookAt : MonoBehaviour
         {
             heldObj.transform.parent = null;
 
+            heldObj.transform.position = new Vector3(player.transform.position.x, 1, player.transform.position.z);
+
+            heldObj.GetComponent<Animator>().enabled = true;
+
             heldObj = null;
 
             print("Object dropped.");  
@@ -51,6 +55,7 @@ public class LookAt : MonoBehaviour
                     // if heldObj == null and hit object is tagged 'pickupable' do stuff
                     heldObj = hit.transform.gameObject;
                     heldObj.transform.parent = this.transform.parent.transform;
+                    heldObj.GetComponent<Animator>().enabled = false;
                     heldObj.transform.localPosition = heldObjPos.transform.localPosition;
                     //heldObj.transform.gameObject.SetActive(false);
 
