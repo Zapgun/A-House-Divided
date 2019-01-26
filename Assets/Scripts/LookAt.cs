@@ -9,6 +9,8 @@ public class LookAt : MonoBehaviour
     public GameObject player;
 
     public GameObject heldObj = null;
+
+    private GameObject dropObj;
     public GameObject heldObjPos; // this is where the held object will be placed
 
     private bool pickupHeld;
@@ -43,18 +45,23 @@ public class LookAt : MonoBehaviour
                     heldObj.transform.localPosition = heldObjPos.transform.localPosition;
                     //heldObj.transform.gameObject.SetActive(false);
 
+                    print("Object picked up.");
 
                     //pickupHeld = true;
                 //}
-            }
-
-            if(Input.GetButtonDown("Cancel")){
-                
             }
         }
         else
         {
             print("I'm looking at nothing!");
+        }
+
+        if(Input.GetButtonDown("Drop")){
+            heldObj.transform.parent = null;
+
+            heldObj = null;
+
+            print("Object dropped.");  
         }
     }
 }
