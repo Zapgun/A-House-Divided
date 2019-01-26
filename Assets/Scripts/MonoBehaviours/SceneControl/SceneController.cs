@@ -17,9 +17,9 @@ public class SceneController : MonoBehaviour
 
     public CanvasGroup faderCanvasGroup;            // The CanvasGroup that controls the Image used for fading to black.
     public float fadeDuration = 1f;                 // How long it should take to fade to and from black.
-    public string startingSceneName = "SecurityRoom";
+    public string startingSceneName = "Main House";
                                                     // The name of the scene that should be loaded first.
-    public string initialStartingPositionName = "DoorToMarket";
+    public string initialStartingPositionName = "00StartPostion";
                                                     // The name of the StartingPosition in the first scene to be loaded.
     public SaveData playerSaveData;                 // Reference to the ScriptableObject which stores the name of the StartingPosition in the next scene.
     
