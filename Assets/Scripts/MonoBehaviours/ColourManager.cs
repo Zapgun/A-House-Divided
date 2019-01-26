@@ -28,8 +28,10 @@ public class ColourManager : MonoBehaviour
         // so this cannot be done in Start *before* deactivating objects 
         colouredObjects = GameObject.FindGameObjectsWithTag("coloured");
 
-//        colourWheel = new Colouration.Colours[3];
-        colourWheel = [Colouration.Colours.R, Colouration.Colours.G, Colouration.Colours.B]
+        colourWheel = new Colouration.Colours[3];
+        colourWheel[0] = Colouration.Colours.R;
+        colourWheel[1] = Colouration.Colours.G;
+        colourWheel[2] = Colouration.Colours.B;
 
         // Now deactivate all objects that should not be seen at the start of the game.
         ApplyWheelColour();
@@ -64,12 +66,12 @@ public class ColourManager : MonoBehaviour
         // Add sound effect for wheel turning
         // Animate UI colourwheel
     }
-    public void CycleColourWheelClockwise() {CycleColourWheel(-1)};
-    public void CycleColourWheelAntiClockwise() {CycleColourWheel(1)};
+    public void CycleColourWheelClockwise() {CycleColourWheel(-1);}
+    public void CycleColourWheelAntiClockwise() {CycleColourWheel(1);}
     
 
     public void RemoveLenses () {
-        colourWheel = [Colouration.Colours.W, Colouration.Colours.W, Colouration.Colours.W];
+        for (int i=0; i<colourWheel.Length; i++) colourWheel[i] = Colouration.Colours.W;
     }
     public void AddLens (Colouration.Colours colour) {
         int insertionIndex;
@@ -92,7 +94,7 @@ public class ColourManager : MonoBehaviour
         ApplyWheelColour();
     }
     public void TorchOff () {
-        lampOn = false
+        lampOn = false;
         // Animate lowering torch
         ChangeColour(sceneColour);
     }
