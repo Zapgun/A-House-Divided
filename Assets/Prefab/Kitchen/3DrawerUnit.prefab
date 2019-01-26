@@ -472,7 +472,7 @@ PrefabInstance:
     - target: {fileID: 6832718369560606408, guid: de0d7658f24e4914eac87e5173c677ca,
         type: 3}
       propertyPath: m_Name
-      value: Cabinet (1)
+      value: 3DrawerUnit
       objectReference: {fileID: 0}
     - target: {fileID: 5081731892699389711, guid: de0d7658f24e4914eac87e5173c677ca,
         type: 3}

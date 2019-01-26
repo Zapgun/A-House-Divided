@@ -319,6 +319,7 @@ GameObject:
   - component: {fileID: 2038039585643967677}
   - component: {fileID: 2038039585640576157}
   - component: {fileID: 2038039585641674333}
+  - component: {fileID: 3594662825857936514}
   m_Layer: 0
   m_Name: Fridge/FreezerCabinet001
   m_TagString: Untagged
@@ -385,6 +386,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3594662825857936514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038039585643669661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6000001, y: 0.55700046, z: 2.24}
+  m_Center: {x: 0.00000037090172, y: 0.0000007434309, z: -0.4}
 --- !u!1 &2038039585643669663
 GameObject:
   m_ObjectHideFlags: 0
