@@ -29,8 +29,8 @@ namespace ModifiedControllers
 
         public void LookRotation(Transform character, Transform camera)
         {
-            float yRot = Input.GetAxis("Rstick_H") * XSensitivity;
-            float xRot = Input.GetAxis("Rstick_V") * YSensitivity;
+            float yRot = Input.GetAxis("Rstick_H") * YSensitivity;
+            float xRot = Input.GetAxis("Rstick_V") * XSensitivity;
 
             m_CharacterTargetRot *= Quaternion.Euler (0f, yRot, 0f);
             m_CameraTargetRot *= Quaternion.Euler (-xRot, 0f, 0f);
